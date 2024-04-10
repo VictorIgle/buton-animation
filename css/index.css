@@ -54,8 +54,8 @@ body{
 
 
 .Button{
-    width: 2.1875rem;
-    height: 2.1875rem;
+    width: 2.5rem;
+    height: 2.5rem;
     background-color: orange;
     display: flex;
     justify-content: center;
