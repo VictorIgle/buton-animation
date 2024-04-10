@@ -54,13 +54,13 @@ body{
 
 
 .Button{
-    width: 4.375rem;
-    height: 4.375rem;
+    width: 2.1875rem;
+    height: 2.1875rem;
     background-color: orange;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin:30vh auto;
+    margin:5vh auto;
     position: relative;
     border-radius: 10px;
     overflow: hidden;
@@ -76,8 +76,8 @@ body{
 }
 
 .Button-span{
-    width: 2.5rem;
-    height: 4px;
+    width: 1.5rem;
+    height: 3px;
     background-color: black;
     border-radius: 4px;
     position: absolute;
@@ -93,31 +93,33 @@ body{
 }
 
 .Button-span:nth-child(1){
-    transform: translateY(-15px);
+    transform: translateY(-7.5px);
     width: 1.5625rem;
-    left: 15px;
-
+   
 }
 
 .Button.isActive span:nth-child(1){
-    width: 2.5rem;
+    width: 1.5rem;
     transform: translateY(0px) rotate(45deg);
     transition-delay: 0.2s;
 
 }
 
 .Button-span:nth-child(2){
-    transform: translateY(15px);
-    width: 1.5625rem;
-    left: 15px;
+    transform: translateY(7.5px);
+    width: 1.5625rem; 
 
 }
 
 .Button.isActive span:nth-child(2){
-    width: 2.5rem;
+    width: 1.5rem;
     transform: translateY(0px) rotate(315deg);
     transition-delay: 0.25s;
     
+}
+
+.Button-span:nth-child(3){
+    width: 1.8rem;
 }
 
 .Button.isActive span:nth-child(3){
